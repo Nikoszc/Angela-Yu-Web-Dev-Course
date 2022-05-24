@@ -1,0 +1,4 @@
+Display elements- 
+ Inline : Allows multiple elements to be placed along the same block or line. Width Cannot be modified <span><img><a>.
+ Block  : Occupies the whole width of the block on the screen. Width Can be modified and is fixed. <p><h1>
+ Inline-block : Allows users to inherit goods of both inline and block properties such as changing the width and allowing multiple elements side by side.
