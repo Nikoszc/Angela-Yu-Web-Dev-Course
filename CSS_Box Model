@@ -2,3 +2,22 @@ Display elements-
  Inline : Allows multiple elements to be placed along the same block or line. Width Cannot be modified <span><img><a>.
  Block  : Occupies the whole width of the block on the screen. Width Can be modified and is fixed. <p><h1>
  Inline-block : Allows users to inherit goods of both inline and block properties such as changing the width and allowing multiple elements side by side.
+
+***** CSS positioning properties****
+Positions : a) Static
+            b) Relative
+            c) Absolute
+            d) Fixed
+            
+            Relative: The element becomes relative to what it would have been when static. Thus the changes in the element occur according to as it would have been statically.
+            Absolute: The element becomes relative to the parent element rather than when it was static. For ex- when a <div> is in a <body> , the body acts as an parent to the div element.
+                      Also, the usual left right top and bottom work differently when working with Absolute positioning as it moves the element compared to the margin of the Body/parent.
+                      
+                      
+                      16 px = 100% = 1 em  // Font properties
+                      
+                      to center an Inline element or a block element whose width is specified we can simply use
+                      for ex- <a></a>
+                              a{
+                               margin: auto;   //centers the element to the parent.
+                              }
